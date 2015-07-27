@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.resources = '*.bundle'
     s.vendored_frameworks = '*.framework'
     s.license = 'MIT'
-    s.framework = 'CoreData', 'CoreLocation', 'Security', 'SystemConfiguration', 'CoreTelephony', 'CoreGraphics'
+    s.framework = 'CoreData', 'CoreLocation', 'Security', 'SystemConfiguration', 'CoreTelephony', 'CoreGraphics', 'CFNetwork', 'UIKit', 'Foundation'
     s.library = 'z', 'stdc++.6.0.9'
     s.requires_arc = false
 
